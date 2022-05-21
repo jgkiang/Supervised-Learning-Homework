@@ -13,7 +13,7 @@ You will be creating and comparing two models on this data: a logistic regressio
 ## Fit a LogisticRegression model and RandomForestClassifier model
 
 Create a LogisticRegression model, fit it to the data, and print the model's score. Do the same for a RandomForestClassifier. You may choose any starting hyperparameters you like. Which model performed better? How does that compare to your prediction? Write down your results and thoughts.
-<br><b>Without scaling the data, my prediction -- random forest -- was correct.</b>
+<br><br><b>Without scaling the data, my prediction -- random forest -- was correct.</b>
 
 ## Revisit the Preprocessing: Scale the data
 
