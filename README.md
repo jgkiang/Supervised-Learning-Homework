@@ -2,6 +2,8 @@
 
 In this assignment, you will be building a machine learning model that attempts to predict whether a loan from LendingClub will become high risk or not. 
 
+<b>**PLEASE SEE MY HOMEWORK ANSWERS BELOW IN BOLD</b>
+
 ## Background
 
 LendingClub is a peer-to-peer lending services company that allows individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. LendingClub offers their previous data through an API.
@@ -34,12 +36,15 @@ You will be creating and comparing two models on this data: a logistic regressio
 ## Fit a LogisticRegression model and RandomForestClassifier model
 
 Create a LogisticRegression model, fit it to the data, and print the model's score. Do the same for a RandomForestClassifier. You may choose any starting hyperparameters you like. Which model performed better? How does that compare to your prediction? Write down your results and thoughts.
+<b>Without scaling the data, my prediction -- random forest -- was correct.</b>
 
 ## Revisit the Preprocessing: Scale the data
 
 The data going into these models was never scaled, an important step in preprocessing. Use `StandardScaler` to scale the training and testing sets. Before re-fitting the LogisticRegression and RandomForestClassifier models on the scaled data, make another prediction about how you think scaling will affect the accuracy of the models. Write your predictions down and provide justification.
 
 Fit and score the LogisticRegression and RandomForestClassifier models on the scaled data. How do the model scores compare to each other, and to the previous results on unscaled data? How does this compare to your prediction? Write down your results and thoughts.
+
+<b>My prediction after scaling, is that logistic regression will be more accurate.  I was correct in my prediction because logistic regression relies on scaled data, while random forest does not.</b>
 
 ## Rubric
 
